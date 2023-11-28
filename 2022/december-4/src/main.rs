@@ -23,8 +23,10 @@ fn main() {
 
         let b: Vec<u32> = (range[0]..range[1] + 1).collect();
 
-        if a.contains(&b[0]) && a.contains(&b[b.len() - 1])
-            || b.contains(&a[0]) && b.contains(&a[a.len() - 1])
+        if a.contains(&b[0])
+            || a.contains(&b[b.len() - 1])
+            || b.contains(&a[0])
+            || b.contains(&a[a.len() - 1])
         {
             count += 1;
         }
