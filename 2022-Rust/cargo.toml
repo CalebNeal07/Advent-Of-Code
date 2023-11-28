@@ -1,0 +1,29 @@
+[workspace]
+resolver = "2"
+members = [
+    "december-1",
+    "december-2",
+    "december-3",
+    "december-4",
+    "december-5",
+    #"december-6",
+    #"december-7",
+    #"december-8",
+    #"december-9",
+    #"december-10",
+    #"december-11",
+    #"december-12",
+    #"december-13",
+    #"december-14",
+    #"december-15",
+    #"december-16",
+    #"december-17",
+    #"december-18",
+    #"december-19",
+    #"december-20",
+    #"december-21",
+    #"december-22",
+    #"december-23",
+    #"december-24",
+    #"december-25"
+]
